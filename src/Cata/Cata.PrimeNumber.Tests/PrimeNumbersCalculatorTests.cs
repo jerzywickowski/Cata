@@ -1,4 +1,7 @@
+using Cata.PrimeNumbers;
+
 namespace Cata.PrimeNumber.Tests
+
 {
     public class PrimeNumbersCalculatorTests
     {
@@ -12,3 +15,4 @@ namespace Cata.PrimeNumber.Tests
         }
     }
 }
+
