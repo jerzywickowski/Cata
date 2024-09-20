@@ -6,7 +6,7 @@ namespace Cata.PrimeNumber.Tests
     public class PrimeNumbersCalculatorTests
     {
         [Fact]
-        public void Calcualte_for_2()
+        public void Calculate_for_2()
         {
             var numbersCalculator = new PrimeNumbersCalculator();
             int[] result = numbersCalculator.Calculate(2);
