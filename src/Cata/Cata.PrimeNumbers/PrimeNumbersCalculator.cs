@@ -4,20 +4,17 @@
     {
         public int[] Calculate(int number)
         {
-            if (number % 2 == 0)
+            var result = new List<int>();
+            for (int i = 2; i <= number; i++)
             {
-                number = (number / 2);
-                if (number % 2 == 0)
+                while (number % i == 0)
                 {
-                    return new int[] { 2, 2 };
-                }
-                else
-                {
-                    return new int[] { 2 };
+                    result.Add(i);
+                    number /= i;
                 }
             }
 
-            return new int[] { number };
+            return result.ToArray();
         }
     }
 }
