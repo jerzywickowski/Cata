@@ -4,7 +4,7 @@
     {
         public int[] Calculate(int number)
         {
-            return new int[] { 2 };
+            return new int[] { number };
         }
     }
 }
