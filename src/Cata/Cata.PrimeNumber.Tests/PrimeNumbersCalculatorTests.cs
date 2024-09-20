@@ -9,6 +9,7 @@ namespace Cata.PrimeNumber.Tests
         [InlineData(2, new [] { 2 })]
         [InlineData(3, new [] { 3 })]
         [InlineData(4, new [] { 2, 2 })]
+        [InlineData(6, new [] { 2, 3 })]
         public void Calculate_for_2(int input, int[] output)
         {
             var numbersCalculator = new PrimeNumbersCalculator();
